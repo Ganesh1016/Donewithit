@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Done with it!</title>
+    <meta name="description" content="Manage your tasks efficiently with our intuitive todo app. Stay organized, track your progress, and accomplish your goals.">
+    <script type="module" crossorigin src="/assets/index-a0e76bb5.js"></script>
+    <link rel="stylesheet" href="/assets/index-29c46058.css">
+  <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+  <body>
+    <div id="root"></div>
+    
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('../service-worker.js')
+            .then(registration => {
+              console.log('Service Worker registered');
+            })
+            .catch(error => {
+              console.error('Error registering Service Worker:', error);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>
