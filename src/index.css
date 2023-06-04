@@ -186,3 +186,26 @@ h1 {
   /* Microsoft Edge */
   color: #0B2447;
 }
+
+#task {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 20px;
+  /* flex-wrap: wrap; */
+  overflow-y: auto;
+  /* overflow-x: hidden; */
+  /* border: 2px solid black; */
+}
+
+input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 2px solid black;
+  cursor: pointer;
+}

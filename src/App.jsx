@@ -3,10 +3,12 @@ import CustomForm from "./components/CustomForm";
 
 function App() {
   return (
-    <div className="container">
-      <h1 id="heading">Task it</h1>
-      <CustomForm />
-    </div>
+    <>
+      <div className="container">
+        <h1 id="heading">Task it</h1>
+        <CustomForm />
+      </div>
+    </>
   );
 }
 
